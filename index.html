@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Bricks-zogica.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/imageedit_2_6849959135.png">
+    <title>Bricks</title>
+</head>
+
+<body onload="sklic()">
+
+
+    <!-- <div id="zacetek" class="zacetek1">
+
+        <div class="vsebinaZacetka">
+
+            <h1>Welcome in the game Bricks</h1>
+            <p id="prvi">Hello, if you want to learn how to play this game click instructions but if you already know
+                how to play then just go ahead and play the game :)</p>
+
+            <div id="startGame"><span class="close" onclick="zacetni1()">Start Game</span></div>
+            <div id="instructions"><span class="openIns" onclick="instructions()">Instructions</span></div>
+        </div>
+
+    </div> -->
+
+
+    <!-- <div id="inst" class="inst1">
+
+        <div class="vsebinaInst">
+
+            <h1>Instructions</h1>
+            <p>Goal of the game is to destroy all of the bricks with the ball. In order to destroy bricks you need to
+                bounce
+                ball off your paddle by using left and right key. <br>
+                But you can loose lifes if the ball touches the ground. If you lose all of the lifes the game is over
+                and
+                you need to start over. <br> There are 2 types of bricks: white ones and red ones. if you hit red ones
+                they will drop a different colour ball. You can collect them.
+                Red ball is bad and will reverse your controlls. On the other hand Green ball gives you big paddle.
+                Yellow ball gives you extra lives and more points.</p>
+            <div id="startGame"><span class="close" onclick="zacetni1()">Start Game</span></div>
+
+        </div>
+
+    </div> -->
+    <div id="izpis">
+        <div>
+            <p class="poravnava">Time:</p>
+            <p class="poravnava" id="timercic">00:00</p>
+        </div>
+        <div>
+            <p class="poravnava">Points:</p>
+            <p class="poravnava" id="points">000</p>
+        </div>
+        <div>
+            <p class="poravnava">Level:</p>
+            <p class="poravnava" id="levels">1</p>
+        </div>
+        <div>
+            <p class="poravnava">Lives:</p>
+            <p class="poravnava" id="lives">3</p>
+        </div>
+    </div>
+
+
+    <div id="countOut">
+        <p id=count></p>
+    </div>
+
+    <canvas id="canvas" width="625px" height="600px"></canvas>
+
+    <div id="powerups">
+        <div id="rdeč">
+            <p>Speed</p>
+        </div>
+        <div id="zelen">
+            <p>Big Paddle</p>
+        </div>
+        <div id="rdečobrat">
+            <p>Wrong directions</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/Brics-zogica.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.6/dist/sweetalert2.all.min.js"></script>
+
+</body>
+
+</html>
